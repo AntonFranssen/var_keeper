@@ -34,4 +34,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          tags: ${{ vars.DOCHUB_USERNAME }}/var_keeper:latets
+          tags: antonfrantsen2307/var_keeper:latets
