@@ -15,7 +15,7 @@ jobs:
       - name: Run Unit Tests
         run: |
           chmod +x ./unit-tests.sh
-          ./test/unit-tests.sh
+          ./unit-tests.sh
         
   integration_testing:
     needs: unit_testing
